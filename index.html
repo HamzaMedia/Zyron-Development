@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zyron Development</title>
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="https://cdn.discordapp.com/attachments/1248988653141626950/1249603634203721728/1717851806023.png?ex=6667e792&is=66669612&hm=e0a9f9053f64417163966e985d91075c4e141e985311738cd4babfa338d41ab0&?size=1024" style="border-radius: 10px;" alt="Kroxly" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Zyron Development">Zyron Development</h1>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Kuruluş Tarihi</p>
+              <time datetime="2024-06-07">07/06/2024</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Turkey</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.instagram.com/9x.hamza?igsh=ZXIzOGdqdXQ0Znhy" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://discord.com/invite/kr2BNySXCd" class="social-link">
+              <ion-icon name="logo-discord"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="about  active" data-page="about">
+        <img src="https://cdn.discordapp.com/banners/882582406358515713/28ea130bc9471c8b034446d46e122246.png?size=512" style="border-radius: 10px; width: 100%;" alt="">
+        <br>
+        <header>
+          <h2 class="h2 article-title">Biz Kimiz ?</h2>
+        </header>
+        <section class="about-text">
+          <p>
+           Biz Zyron Development Olarak 2024 Haziran Ayında Kurulmuş Bir Topluluğuz Kendi Çapımızda Çeşitli Projeler Yapmaktayız.
+          </p>
+          <p>
+            Bizim Asıl Amacımız Türkiyede Yazılıma İlgi Duyan Kişilere Elimizden Geldiğince Yardımcı Olmaktır.
+          </p>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">Sizin İçin Neler Yapıyoruz ?</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Digital Design </h4>
+                <p class="service-item-text">
+                  Sizler İçin İhtiyacınız Olan Tasarımları Uygun Fiyata Yüksek Kalitede Yapmaktayız.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Fevelopment icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Development</h4>
+                <p class="service-item-text">
+                 Sizler İçin İstediğiniz Programları Bildiğimiz Programlama Dilleri Aracılığı İle Yapmaktayız.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Developers</h3>
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img
+                    src="https://r.resimlink.com/An4Cg.png?size=1024"
+                    style="border-radius: 10px;" alt="Protogen" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Protogen</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                   Merhaba Ben Protogen, Ben Genel Olarak Dijital Tasarım Yapmaktayım Son Bir Kaç Aydır Yazılıma Olan İlgim Sayesinde Ufak Projeler Yaptım Ve Arkadaşımla Birlikte Zyron Development'i 2024 Haziran Ayında Kurduk.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Kroxly</h4>
+              <div data-modal-text>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima praesentium assumenda dolorum. Magni
+                  numquam quisquam repellat, quas in ex perferendis omnis rerum expedita nemo magnam.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </article>
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+          </ul>
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+            </ul>
+          </div>
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://efwlxc.xyz">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.png" alt="efwlxc" loading="lazy">
+                </figure>
+                <h3 class="project-title">zyron</h3>
+                <p class="project-category">Dijital Tasarım</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Development">
+              <a href="https://vibescripts.com.tr">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-2.png" alt="vibescripts" loading="lazy">
+                </figure>
+                <h3 class="project-title">Vibe Scripts</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        
+
+        <section class="service">
+          <h3 class="h3 service-title">Social Medias</h3>
+          <ul class="service-list">
+            <a href="https://www.instagram.com/9x.hamza?igsh=ZXIzOGdqdXQ0Znhy">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icons8-instagram.svg" alt="instagram icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Instagram</h4>
+                  <p class="service-item-text">
+                    Protogen
+                  </p>
+                </div>
+              </li>
+            </a>
+            
+            <a href="https://discord.com/invite/kr2BNySXCd">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icons8-discord.svg" alt="discord icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Discord</h4>
+                  <p class="service-item-text">
+                    Zyron Development
+                  </p>
+                </div>
+              </li>
+            </a>
+          </ul>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
